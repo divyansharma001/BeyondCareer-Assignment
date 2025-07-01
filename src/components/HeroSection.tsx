@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { GraduationCap } from 'lucide-react';
 
@@ -21,10 +20,10 @@ const HeroSection = () => {
       </div>
 
       {/* Navigation */}
-      <nav className="absolute top-0 left-0 right-0 z-50 px-10 py-7 flex justify-between items-center">
+      <nav className="absolute top-0 left-0 right-0 z-50 px-10 py-7 flex justify-between items-center sm:px-20">
         <div className="flex items-center space-x-8">
           <GraduationCap className="w-6 h-6 text-white/70" />
-          <div className="flex space-x-6 font-inter text-sm font-normal text-slate-300">
+          <div className="flex space-x-6 font-inter text-sm font-normal text-slate-300 sm:space-x-12">
             <a href="#about" className="hover:text-white transition-colors duration-300 hover:drop-shadow-sm">
               About
             </a>
@@ -45,15 +44,15 @@ const HeroSection = () => {
       </nav>
 
       {/* Main Content */}
-      <main className="relative z-10 flex h-screen items-center justify-center text-center">
-        <div className="max-w-4xl px-8 text-white animate-fade-in">
-          <h1 className="font-sora text-6xl font-light tracking-wide mb-6">
+      <main className="relative z-10 flex h-screen items-center justify-center text-center sm:px-20">
+        <div className="max-w-4xl px-8 text-white animate-fade-in sm:px-0">
+          <h1 className="font-sora text-6xl font-light tracking-wide mb-6 sm:text-8xl">
             Beyond Career
           </h1>
-          <h2 className="font-sora text-2xl font-light text-blue-200 mb-6">
+          <h2 className="font-sora text-2xl font-light text-blue-200 mb-6 sm:text-4xl">
             Redefining Student Success
           </h2>
-          <p className="mt-4 mx-auto max-w-2xl font-inter text-base font-normal text-slate-300 leading-relaxed">
+          <p className="mt-4 mx-auto max-w-2xl font-inter text-base font-normal text-slate-300 leading-relaxed sm:text-lg">
             A visionary startup founded by dynamic students from IIT Kharagpur, committed to unlocking opportunities, 
             connecting students with industry leaders, and achieving aspirations through career guidance, mentorship, 
             internships, and community engagement.
